@@ -7,6 +7,8 @@
 [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://github.com/VinayNoogler000/Color-Palette-Generator/blob/main/src/style.css)
 [![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/VinayNoogler000/Color-Palette-Generator/blob/main/src/app.js)
 
+A web app to generate a palette of random colors by clicking on the "generate" button, with a feature to display and copy a specific color's hexcode, on hover and cilck, respectively.
+
 
 ## 🌟 Features
 
@@ -83,9 +85,9 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ```
 project-root/
 ├── src                # Contains source code
-    ├── index.html         # Main HTML structure
-    ├── app.js             # Core JavaScript functionality
-    ├── style.css          # Tailwind CSS styling
+    ├── index.html     # Main HTML structure
+    ├── app.js         # Core JavaScript functionality
+    ├── style.css      # Tailwind CSS styling
 └── README.md          # Project documentation
 ```
 
