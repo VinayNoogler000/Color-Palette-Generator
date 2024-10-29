@@ -1,0 +1,31 @@
+{
+  "name": "color-palette-generator-app---js",
+  "version": "1.0.0",
+  "description": "A web app to generate palette of random colors, with a feture to copy a specific color's hex code.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinayNoogler000/Color-Palette-Generator.git"
+  },
+  "keywords": [
+    "color",
+    "palette",
+    "generator",
+    "html",
+    "css",
+    "js",
+    "tailwindcss"
+  ],
+  "author": "Vinay Tambey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VinayNoogler000/Color-Palette-Generator/issues"
+  },
+  "homepage": "https://github.com/VinayNoogler000/Color-Palette-Generator#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
