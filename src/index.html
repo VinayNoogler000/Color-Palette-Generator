@@ -6,10 +6,25 @@
         <meta name="description" content="A web app to generate a palette of random colors, with a feature to copy a specific color's hexcode."/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Color Palette Generator | Vinay Tambey</title>
+        <link rel="icon" href="../assets/image.png" type="image/x-icon"/>
         <link rel="stylesheet" href="../dist/output_v1.css"/>
     </head>
 
     <body>
+        <main class="w-full h-screen">
+            <h1 class="w-full text-center text-4xl text-sky-800 font-semibold p-7 bg-gradient-to-r from-teal-300 to-teal-100">Color Palette Generator App</h1>
+            
+            <div class="btn-container">
+                <button id="generateBtn" class="p-4 bg-sky-800 text-white text-2xl rounded-lg transition-all btn-hover-effect">Generate Colors</button>
+            </div>
+
+            <div class="color-palette">
+                <div id="color1" class="bg-red-800"></div>
+                <div id="color2" class="bg-green-600"></div>
+                <div id="color3" class="bg-yellow-400"></div>
+                <div id="color4" class="bg-blue-500"></div>
+            </div>
+        </main>
 
         <script src="./app.js"></script>
     </body>
