@@ -39,6 +39,29 @@ Check out the live demo: [Color Palette Generator]()
 - Basic understanding of HTML, CSS, and JavaScript
 
 
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+## Code Architecture
+
+```
+project-root/
+├── src                # Contains source code
+    ├── index.html     # Main HTML structure
+    ├── app.js         # Core JavaScript functionality
+    ├── style.css      # Tailwind CSS styling
+└── README.md          # Project documentation
+```
+
+
 ## 🎯 Getting Started
 
 1. Clone the repository:
@@ -64,32 +87,14 @@ Check out the live demo: [Color Palette Generator]()
 5. Open `index.html` in your preferred browser & see the project working live.
 
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/VinayNoogler000/Color-Palette-Generator/blob/main/LICENSE.txt) file for details.
 
 
-## Code Architecture
+## 🙏 Acknowledgments
 
-```
-project-root/
-├── src                # Contains source code
-    ├── index.html     # Main HTML structure
-    ├── app.js         # Core JavaScript functionality
-    ├── style.css      # Tailwind CSS styling
-└── README.md          # Project documentation
-```
+- [Tailwind CSS](https://tailwindcss.com/) for the styling framework
 
 
 ## 📞 Contact Developer & Owner
@@ -101,11 +106,6 @@ project-root/
 - Twitter/X: [@VinayNoogler000](https://x.com/VinayNoogler000)
 
 For any queries or suggestions, feel free to reach out through above mentioned links.   
-
-
-## 🙏 Acknowledgments
-
-- [Tailwind CSS](https://tailwindcss.com/) for the styling framework
 
 
 ## 📊 Project Status
