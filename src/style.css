@@ -11,22 +11,50 @@
 
     html {
         font-family: "Poppins", sans-serif;
-        @apply text-[62.5%];
+        @apply text-[62.5%]; /*1rem = 10px */
     }
 }
 
 @layer components {
     .btn-container {
-        @apply w-full h-[20vh] p-7 bg-sky-100 grid place-items-center;
+        @apply w-full h-[20vh] p-7 bg-sky-100 grid-position;
     }
 
     .color-palette {
         @apply w-full h-[calc(80vh-60px)] grid grid-rows-[3fr_2.5fr_2fr_1.5fr];
+    }
+
+    .hex-code {
+        @apply bg-white rounded-xl transition-all duration-200 btn-hover-effect;
+    }
+
+    .hex-code:hover {
+        @apply bg-gray-200;
+    }
+
+    #color1 .hex-code {
+        @apply p-[1rem] text-[1.5rem];
+    }
+
+    #color2 .hex-code {
+        @apply p-[0.8rem] text-[1.35rem];
+    }
+
+    #color3 .hex-code {
+        @apply p-[0.7rem] text-[1.25rem];
+    }
+
+    #color4 .hex-code {
+        @apply p-[0.6rem] text-[1.1rem];
     }
 }
 
 @layer utilities {
     .btn-hover-effect:hover {
         @apply scale-110 shadow-xl shadow-[#0000004f];
+    }
+
+    .grid-position {
+        @apply grid place-items-center;
     }
 }
