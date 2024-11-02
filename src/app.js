@@ -37,7 +37,7 @@ const generateRandomColor = () => {
     return `rgb(${red}, ${green}, ${blue})`; 
 }
 
-// Function to Update the "Color Palette Element" by Displaying Random Colors, at every 500ms interval:
+// Function to Update the "Color Palette Element" by Displaying Random Colors, at every 350ms interval:
 const updateColorPalette = () => {
     let i = 0; //index to iterate elements in 'colorElsArr[]'
 
@@ -47,7 +47,7 @@ const updateColorPalette = () => {
         }
         colorElsArr[i].style.backgroundColor = generateRandomColor(); //update the Color-Element's bg-color
         i++; //increment the 'i' index
-    }, 500);
+    }, 350);
 }
 
 let intervalId; //stores the ID of the "setInterval()" used in the "udpateColorPalette()"  
