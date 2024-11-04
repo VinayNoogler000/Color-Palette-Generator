@@ -17,12 +17,12 @@ A web app to generate a palette of random colors by clicking on the "generate" b
 
 ## 🚀 Live Demo
 
-Check out the live demo: [Color Palette Generator]()
+Check out the live demo: [Color Palette Generator](https://color-palette-generator-by-vt.b-cdn.net/)
 
 
 ## 📸 Screenshots
 
-![Color Palette Generator Banner]()
+![Color Palette Generator Banner](https://color-palette-generator-by-vt.b-cdn.net/)
 
 
 ## 🛠️ Technologies Used
