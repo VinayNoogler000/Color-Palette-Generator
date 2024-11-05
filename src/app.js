@@ -1,9 +1,26 @@
 document.addEventListener("DOMContentLoaded", () => {
-    //A Class to create objects of color elements in the "color-palette" el, by following D.R.Y approach.
-    class colorEl {
+    //Class to create objects of color elements in the "color-palette" el, by following D.R.Y approach.
+    class ColorEl {
         constructor(el, hexCode) {
             this.el = el;
             this.hexCode = (hexCode === undefined ? el.querySelector(".hex-code").innerText : hexCode);
+        }
+    }
+
+    //Class to Craete Toast Object:
+    class Toast {
+        constructor(text, bgColor) {
+            this.text = text;
+            this.duration = 2000;
+            this.close = true;
+            this.gravity =  "top",
+            this.position = "center",
+            this.stopOnFocus = true,
+            this.style = {
+                fontSize: "1.5rem",
+                background: bgColor === "green" ? "linear-gradient(to right, #00b09b, #96c93d)" : "linear-gradient(to right, #e33217, #ff001e)",
+                cursor: "default",
+            }
         }
     }
 
@@ -86,11 +103,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
         try {
             await navigator.clipboard.writeText(text);
-            alert("Copied to Clipboard!")
+            Toastify(new Toast("Copied to Cliboard", "green")).showToast();
         }
         catch (err) {
+            Toastify(new Toast("Can't Copy to Clipboard. Please, Retry Again!", "red")).showToast();
             console.log(err);
-            alert("Can't Copy to Clipboard. Please, Retry Again!");
         }
     }
 
@@ -100,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Loop to add Elements to the 'colorBoxEls[]':
     for (let colorBox of colorPaletteEl.children) {
-        colorBoxEls.push(new colorEl(colorBox));
+        colorBoxEls.push(new ColorEl(colorBox));
     }
 
     // Apply Event Listeners to Elements:
