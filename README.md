@@ -37,7 +37,7 @@ Check out the live demo: [Color Palette Generator](https://color-palette-generat
 - **Toastify.js**: A lightweight and customizable toast notification library.
 
 
-## Learnings
+## 📚 Learnings
 During the development of this project, I learned about the **Clipboard API**, a built-in JavaScript library that provides an easy way to copy text to the user's clipboard. The `writeText()` method of the Clipboard API was particularly useful for implementing the "Copy to Clipboard" functionality in this application.
 
 
@@ -113,11 +113,11 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 - [Toastify JS](https://www.npmjs.com/package/toastify-js) for the notification system, in the form of toast.
 
 
-## Open for Career Opportunities
+## 💼 Open for Career Opportunities
 I'm currently open to new career opportunities, specifically in frontend web development roles. If you're interested in collaborating or have any job openings, please feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/vinaytambey/), or [Send an Email](mailto:vinaytambey000@gmail.com).
 
 
-## What My Daily Life Looks Like?
+## 🗓️ What My Daily Life Looks Like?
 As of now (latest version of this README file), I'm building Projects using Frontend Web Devleopment technologies to strengthen my fundamentals, also, learning Backend Web Development. 
 This project/website is my 6th JavaScript project, more four projects are left (means, total 10 projects), in JS. 
 After, that I will be building atleast 3-5 major Projects using React.js framework with Redux.js library, while learning Backend Web Development.
