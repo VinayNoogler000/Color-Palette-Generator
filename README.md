@@ -81,12 +81,12 @@ project-root/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/VinayNoogler000/Fetch-Product-Search-and-Filter-Webpage.git
+   git clone https://github.com/VinayNoogler000/Color-Palette-Generator.git
    ```
 
 2. Navigate to project directory:
    ```bash
-   cd Fetch-Product-Search-and-Filter-Webpage
+   cd Color-Palette-Generator
    ```
 
 3. Install all the Project's Dependencies:
@@ -96,7 +96,7 @@ project-root/
 
 4. Start the Tailwind's build process to Build the CSS file:
    ```bash
-   npx tailwindcss -i src/style.css -o dist/output_v1.css --watch
+   npx tailwindcss -i src/style.css -o dist/output.css --watch
    ```
 
 5. Open `index.html` in your preferred browser & see the project working live.
