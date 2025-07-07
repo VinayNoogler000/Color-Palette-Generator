@@ -20,7 +20,7 @@ The Color Palette Generator is a visually appealing and interactive web applicat
 
 ## 🚀 Live Demo
 
-Check out the live demo: [Color Palette Generator](https://color-palette-generator-by-vt.b-cdn.net/)
+Check out the live demo: [Color Palette Generator](https://color-palette-generator-vt.vercel.app/)
 
 
 ## 📸 Screenshots
